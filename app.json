@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "p2vest-test",
+    "slug": "p2vest-test",
+    "version": "1.0.0",
+    "web": {
+      "favicon": "./assets/images/calender.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/images/LogoOnboarding.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nealluslabs.p2vesttest"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/LogoOnboarding.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nealluslabs.p2vesttest"
+    }
+  }
+}
